@@ -1,11 +1,8 @@
-# Dom Pedro Interview
+Porta utilizada pelo MySQL: 4407
 
-## Instructions
+Porta utilizada pelo index.html: 3000
 
-- [ ] Front-end application that includes the following fields: id, name, email, created_at
+A pasta sql contem um script para a geração do banco de dados.
 
-- [ ] Send data to a back-end API written in Node.js
+Para iniciar o app com o prompt de comando navegue até a pasta client e execute "node client.js"
 
-- [ ] Persist data in mysql
-
-- [ ] List persisted data in a table on the frontend

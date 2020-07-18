@@ -1,0 +1,14 @@
+{
+  "name": "interview-dompedro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rededompedro/interview-dompedro.git",
+  "author": "DPNet - Dom Pedro <rdpnet@rededompedro.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dom Pedro - Home</title>
+<script src="functions.js"></script>
+</head>
+
+<style>
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;}
+
+input[type=text]:focus {
+      background-color: #ddd;
+      outline: none;}
+
+button[type=submit] {
+      background-color: #434140;
+      color: #ffffff;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      font-size: 20px;}
+
+label{
+    font-size: 18px;}
+
+button[type=submit]:hover {
+    background-color:#3d3c3c;}
+
+body {
+    background-color: lightslategrey;
+}    
+
+h1 {
+    font-size: 18px;
+    color: darkslateblue;}
+
+h2 {
+    font-size: 16px;}
+
+h3 {
+    font-size: 16px;
+    }
+
+h4 {
+    font-size: 14px;
+    color: crimson;}             
+</style>
+
+
+<body onload="loadUsers()">
+
+<div>
+    <h2>Create User </h2>
+          <label>Name:</label>
+          <input type="text" placeholder="Enter your Name" id="name" required>
+          <label>Email: </label>
+          <input type="email" placeholder="Enter your Email" id="emailAddress" required>
+          <button type="submit" onclick="insertUser()">Submit</button>
+        </div>
+</div>
+
+<div id="usuarios">
+
+</div>
+
+</body>
+</html>
